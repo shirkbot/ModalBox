@@ -1,0 +1,120 @@
+body {
+    background-color: #263238;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.header {
+    background-color:#000a12;
+    font-size:35px;
+    font-weight: bold;
+    letter-spacing:4px;
+    text-transform:uppercase;
+    text-align:center;
+    padding:15px;
+}
+
+.container {
+    /*background-color: #4f5b62;*/
+    font-size: 20px;
+    text-align: center;
+}
+
+.button {
+    padding: 10px 20px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #b71c1c;
+    border: none;
+    margin: 3%;
+    font-size: 16px;
+    color: #f8f8f8;
+}
+
+.graphic{
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.data-gathering {
+
+}
+
+.input {
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 250px;
+    background-color: #f8f8f8;
+    border: none;
+    font-size: 16px;
+}
+
+
+a{
+    text-decoration:none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration:none;
+}
+
+.extra-text{
+  overflow: auto;
+}
+
+.next {
+  float:right;
+}
+
+/*
+@media all and (max-width: 700px) {
+
+}
+
+*/
+
+/* MODAL BOX */
+
+/* Background Box */
+.modal {
+    display: block; /* Visible by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 1%; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Image/Dispaly Content */
+.modal-content {
+    background-color: #36393e;
+    margin: auto;
+    padding: 1%;
+    border: 1px solid #888;
+    width: 70%;
+}
+
+/* The Close Button */
+.close {
+    color: #fffdd0;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
